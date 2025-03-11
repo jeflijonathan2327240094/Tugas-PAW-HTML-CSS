@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #0b110b;
+  background-color: #0B1116;
   color: white;
   max-width: 100%;
 }
@@ -21,6 +21,7 @@ body {
   background-size: cover;
   background-position: center;
 }
+
 .container-nav {
   padding: 25px 40px 25px 40px;
   display: flex;
@@ -30,7 +31,9 @@ body {
 }
 
 nav {
+  top: 0;
   width: 100%;
+  background-color: #0B1116;
 }
 
 nav ul {
@@ -38,47 +41,112 @@ nav ul {
   display: flex;
   gap: 20px;
 }
+
 nav ul li {
   display: flex;
   justify-items: center;
   align-items: center;
 }
+
 nav ul li a {
   color: white;
-  font-size: 14px;
+  font-size: 15px;
   text-decoration: none;
+}
+
+.card-bg-images{
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .border-0 {
   border: 0;
 }
+
 .ms-auto {
   margin-left: auto;
 }
-.width-50 {
+
+.w-50 {
   width: 50px;
 }
 
-.width-150 {
+.w-150 {
   width: 150px;
+
+}
+.w-200 {
+  width: 200px;
 }
 
-.width-580 {
+.w-250 {
+  width: 250px;
+}
+
+.w-300 {
+  width: 300px;
+}
+
+
+.w-400 {
+  width: 400px;
+}
+.w-580 {
   width: 580px;
 }
 
-.width-1300 {
+.w-1300 {
   width: 1300px;
 }
 
-.height-50 {
+.w-80{
+  width: 80%;
+}
+
+.w-100{
+  width: 100%;
+}
+
+.h-50 {
   height: 50px;
 }
 
-.height-500 {
+.h-500 {
   height: 500px;
 }
 
+.h-100{
+  height: 100%;
+}
+
+.gap-3{
+  gap: 3px;
+}
+
+.gap-5 {
+  gap: 5px;
+}
+
+.gap-10{
+  gap: 10px;
+}
+
+.gap-20{
+  gap: 20px;
+}
+
+.gap-30 {
+  gap:30px;
+}
+
+.items-center{
+  align-items: center;
+}
+.justify-center{
+  justify-content: center;
+}
 .text-center {
   text-align: center;
 }
@@ -88,22 +156,81 @@ nav ul li a {
 }
 
 .text-title {
-  font-size: 50px;
+  font-size: 25px;
   font-weight: bolder;
+}
+
+.mt-2 {
+  margin-top: 2%;
 }
 
 .mt-5 {
   margin-top: 5%;
 }
 
+.mt-10{
+  margin-top:10%;
+}
+.mt-20{
+  margin-top:20%;
+}
+
+.mb-5{
+  margin-bottom:  5%;
+}
+
+.mb-10{
+  margin-bottom: 10%;
+}
+
 .madsos {
   display: flex;
   gap: 15px;
 }
+
 .madsos img {
-  width: 35px;
+  width: 40px;
+  border-radius: 50%;
+  border: 3px solid #2d5372;
+
 }
 
 .flex {
   display: flex;
+}
+
+.card{
+  background-color: #101820;
+  height: 400px;
+  width: 90%;
+}
+
+.card-body{
+  padding: 20px;
+}
+
+.group-input{
+  gap: 10px;
+  width: 100%;
+  display: flex; flex-direction: column;
+}
+
+.form-control{
+  height: 25px;
+}
+.flex-col{
+  flex-direction: column;
+}
+.btn{
+  border-radius: 10px;
+  padding: 6px 20px  6px 20px;
+  border: none;
+  width: 100px;
+} 
+.btn-primary{
+  color: white;
+  background-color: rgb(31, 31, 102);
+}
+.m-auto{
+  margin: auto;
 }
