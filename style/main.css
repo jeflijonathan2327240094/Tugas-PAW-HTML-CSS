@@ -25,6 +25,7 @@ body {
   padding: 25px 40px 25px 40px;
   display: flex;
   align-items: center;
+  gap: 20px;
   justify-content: center;
 }
 
@@ -85,14 +86,24 @@ nav ul li a {
 .item-align {
   align-items: center;
 }
+
 .text-title {
   font-size: 50px;
   font-weight: bolder;
 }
+
 .mt-5 {
   margin-top: 5%;
 }
+
 .madsos {
   display: flex;
   gap: 15px;
+}
+.madsos img {
+  width: 35px;
+}
+
+.flex {
+  display: flex;
 }
